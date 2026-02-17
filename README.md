@@ -19,3 +19,14 @@ I implemented a **Zero Trust** security architecture on Google Cloud Platform to
 ## Lessons Learned (Critical Thinking)
 * **Identity over Network:** Traditional perimeter security (VPNs) is insufficient. IAP provides a more granular, identity-based layer.
 * **Security vs. Convenience:** Using IAP allows employees to access internal tools securely from any location without the latency and overhead of a VPN.
+## Lab Evidence
+
+## Lab Evidence
+
+### 1. Access Restricted (Zero Trust in Action)
+![Access Denied](Captura de pantalla 2026-02-17 102653.png)
+*Descripción: Intento de acceso desde una sesión no autorizada. El Identity-Aware Proxy bloquea la petición antes de que llegue a la aplicación.*
+
+### 2. IAP Configuration in Google Cloud Console
+![IAP Console](Captura de pantalla 2026-02-17 104842.png)
+*Descripción: Panel de seguridad de GCP donde se muestra el servicio de App Engine con el interruptor de IAP activado y las políticas de acceso aplicadas.*
