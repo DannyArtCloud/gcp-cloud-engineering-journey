@@ -24,7 +24,7 @@ I implemented a **Zero Trust** security architecture on Google Cloud Platform to
 ## Lab Evidence
 
 ### 1. Access Restricted (Zero Trust in Action)
-![Access Denied](Captura de pantalla 2026-02-17 102653.png)
+![Access Denied](01-security-iap/Captura de pantalla 2026-02-17 102653.png)
 *Descripción: Intento de acceso desde una sesión no autorizada. El Identity-Aware Proxy bloquea la petición antes de que llegue a la aplicación.*
 
 ### 2. IAP Configuration in Google Cloud Console
