@@ -28,5 +28,5 @@ I implemented a **Zero Trust** security architecture on Google Cloud Platform to
 *Descripción: Intento de acceso desde una sesión no autorizada. El Identity-Aware Proxy bloquea la petición antes de que llegue a la aplicación.*
 
 ### 2. IAP Configuration in Google Cloud Console
-![IAP Console](Captura de pantalla 2026-02-17 104842.png)
+![IAP Console](01-security-iap/Captura de pantalla 2026-02-17 104842.png)
 *Descripción: Panel de seguridad de GCP donde se muestra el servicio de App Engine con el interruptor de IAP activado y las políticas de acceso aplicadas.*
